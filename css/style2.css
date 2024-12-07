@@ -1,0 +1,232 @@
+/* Base */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Lilita One";
+    font-size: 20px;
+}
+
+.galery__one {
+    display: flex;
+    max-width: auto;
+    height: auto; 
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.title__work, .title__all {
+    color: #1A232F;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.nav__galery--one {
+    display: flex;
+    padding: 19px 90px;
+    align-items: flex-end;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.category {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #1A232F;
+    font-size: 22px;
+}
+
+.chibi__buttom, .icon__buttom, .medio__buttom, .completo__buttom {
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #8ABCD7;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.chibi__buttom:hover, .icon__buttom:hover, .medio__buttom:hover, .completo__buttom:hover {
+    background-color: #1A232F;
+}
+
+.galery__img--all {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.img.hidden {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+.column__1 {
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.column__1 img {
+    height: 100%;
+}
+
+
+.nav__galery--one a.active {
+    background-color: #1A232F;
+    color: #ffffff;
+}
+
+
+
+/* Escritorio Grande (1366px en adelante) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+    }
+
+    .title__work, .title__all {
+        font-size: 54px;
+    }
+
+    .nav__galery--one {
+        gap: 60px;
+    }
+
+    .column__1 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Escritorio Mediano o Tablet Horizontal (1024px - 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    body {
+        font-size: 20px;
+    }
+
+    .category {
+        text-align: center;
+        width: 100%; 
+    }
+
+    .title__work, .title__all {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .nav__galery--one {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .column__1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Escritorio Pequeño o Tablet Vertical (768px - 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .title__work, .title__all {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .nav__galery--one {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .column__1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Móvil (Menor a 767px) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    .title__work, .title__all {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .nav__galery--one {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .category {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .column__1 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .img {
+        height: auto; 
+    }
+}
+
+/* Móvil Pequeño (320px) */
+@media (max-width: 320px) {
+    .title__work, .title__all {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .nav__galery--one {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .category {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .column__1 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}

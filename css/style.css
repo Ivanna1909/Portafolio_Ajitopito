@@ -1,0 +1,1049 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Lilita One";
+    font-size: 32px;
+}
+
+/* cabezón */
+.nav{
+    padding: 12px;
+}
+.header{
+    width: 100%;
+    padding: 20px 50px;
+
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    background-color: rgb(255, 255, 255); 
+    padding: 20px 50px; 
+
+}
+.header--container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    margin: 0px auto;
+
+    
+}
+.buttom--secundary{
+    color: #FFF;
+    border-radius: 12px;
+    background: #8ABCD7;
+
+    width: 182px;
+    height: 55px;
+    padding: 18px 29px 18px 28px;
+    align-items: center;
+    text-decoration: none;
+}
+.buttom--secundary:hover{
+    background: #1A232F;
+}
+.buttom--primary{
+    color: #8ABCD7;
+    padding: 18px 29px 18px 28px;;
+    gap: 10px;
+    text-decoration: none;
+
+    border-radius: 12px;
+    background: #FFF;
+}
+.buttom--primary:hover{
+    color: #1A232F;
+}
+.logo{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+    color: #8ABCD7;
+}
+.logo:hover{
+    color: #1A232F;
+}
+/* primera card */
+
+.card__one{
+    display: flex;
+    height: 1024px;
+    padding-top: 90px;
+    align-items: center;
+    align-self: stretch;
+    background-color: #8ABCD7;
+    
+    gap: 10%;
+}
+.card__one--title{
+    display: flex;
+    padding-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.subtitle--one{
+    color: #FFF;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.title--one{
+    color: #FFF;
+    text-align: center;
+    font-size: 128px;
+    font-weight: 500;
+}
+.card__one--img{
+}
+.img__one{
+    width: 900px;
+}
+
+/* segunda card */
+
+.card__two{
+    display: flex;
+    padding: 130px;
+    align-items: center;
+    gap: 20%;
+}
+.information__content{
+    display: flex;
+    width: 563px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.title--two{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #8ABCD7;
+
+    font-size: 40px;
+}
+.content__paragraph--two{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.paragraph--two{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #1A232F;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+}
+.card__two--img{
+    background-color: rgb(255, 255, 255);    
+}
+
+.img__two{
+    width: 606px;
+}
+.education__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+.second__title--two{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.subtitle__second{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #1A232F;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+}
+.education__card{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+
+    display: flex;
+    padding-left: 27px;
+    align-items: center;
+    align-self: stretch;
+}
+.university__career{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    color: #8ABCD7;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 32px;
+    font-style: normal;
+    
+}
+.university{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #1A232F;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+}
+.software{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.subtitle__2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #1A232F;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+
+}
+.clip__studio--logo{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.subtitle__again--two{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.more--two{
+    color: #1A232F;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+}
+.data{
+    display: flex;
+    width: 675px;
+    padding-left: 42px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.location--icon{
+
+}
+.text--two{
+    color: #8ABCD7;
+}
+.lenguage{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+.traduction--icon{
+
+}
+.text--two__two{
+    color: #8ABCD7;
+}
+
+/* tercera card */
+
+.third__card{
+    display: flex;
+    height: 1024px;
+    padding: 0px 0px 50px 127px;
+    align-items: center;
+    gap: 25%;
+}
+.content{
+    display: flex;
+    width: 563px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 57px;
+    flex-shrink: 0;
+}
+.third__title{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+    color: #8ABCD7;
+    font-family: "Lilita One";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+.paragraph--card{
+    width: 543px;
+    display: flex;
+    padding: 10px 10px 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+}
+.content__paragraph--third{
+    
+    font-size: 22px;
+    color: #1A232F;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+.img__three{
+}
+.img__third{
+    width: 606px;
+
+}
+
+/* quinta CARD */
+.fifth__card{
+    display: flex;
+    max-width: auto; 
+    padding-top: 168px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 100px 48px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+    background-color: #8ABCD7;
+}
+.title__content--five{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    flex-shrink: 0;
+}
+.title__one--five{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box__one{
+    
+}
+.number{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+.name--process{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+}
+.img__content--five{
+    display: flex;
+    width: 1440%;
+    padding: 0px 50px 0px 14%;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+}
+.boceto__img{
+    width: 655px;
+    height: 696px;
+    border-radius: 12px;
+}
+.lineart__img{
+    width: 655px;
+    height: 696px;
+    border-radius: 12px;
+}
+
+.title__two--five{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+}
+.kurapika__img--final{
+    width: auto;
+}
+.final__img{
+    width: 100%;
+    height: max-content;
+}
+
+/* sexta card */
+
+.sixth__card{
+    display: flex;
+    max-width: auto;  
+    padding-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+
+}
+.comissions__container{
+    display: flex;
+    width: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+}
+.comissions__title{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #8ABCD7;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+.card__comissions{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    align-self: stretch;
+}
+.icon__card{
+    display: flex;
+    width: 4000px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25%;
+
+    border-radius: 20px;
+    border: 5px solid #1A232F;
+}
+.icon__title{
+    color: #8ABCD7;
+    text-align: center;
+    font-size: 40px;
+    color: #8ABCD7;
+    font-style: normal;
+    font-weight: 400;
+}
+.icon__information{
+    color: #1A232F;
+    text-align: center;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+.price{
+    color: #293034;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.chibi__card{
+    display: flex;
+    width: 4000px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 21%;
+
+    border-radius: 20px;
+    border: 5px solid #1A232F;
+}
+.chibi__title{
+    text-align: center;
+    font-size: 40px;
+    color: #8ABCD7;
+    font-style: normal;
+    font-weight: 400;
+}
+.chibi__information{
+    color: #1A232F;
+    text-align: center;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.medio__card{
+    display: flex;
+    width: 4000px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+
+    border-radius: 20px;
+    border: 5px solid #1A232F;
+}
+.recomendation{
+
+}
+.medio__title{
+    text-align: center;
+    font-size: 40px;
+    color: #8ABCD7;
+    font-style: normal;
+    font-weight: 400;
+}
+.medio__information{
+    color: #1A232F;
+    text-align: center;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+.completo__card{
+    display: flex;
+    width: 4000px;
+    height: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18%;
+
+    border-radius: 20px;
+    border: 5px solid #1A232F;
+}
+.completo__title{
+    text-align: center;
+    font-size: 40px;
+    color: #8ABCD7;
+    font-style: normal;
+    font-weight: 400;
+}
+.completo__information{
+    color: #1A232F;
+    text-align: center;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+.buttom--primary--six-card{
+    display: flex;
+    width: 380px;
+    height: 71px;
+    padding: 30px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+
+    border-radius: 12px;
+    background: #8ABCD7;
+
+    text-decoration: none;
+}
+.buttom--primary--six-card:hover{
+    background-color: #1A232F;
+}
+.buttom--secundary--six-card{
+    display: flex;
+    width: 182px;
+    height: 55px;
+    padding: 18px 29px 18px 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFF;
+    border-radius: 12px;
+    background: #8ABCD7;
+    text-decoration: none;
+}
+.buttom--secundary--six-card:hover{
+    background-color: #1A232F;
+}
+
+/* septima card */
+
+.seventh__card{
+    display: flex;
+    max-width: auto;
+    padding-top: 100px;
+    padding-bottom: 129px;
+    align-items: center;
+    gap: 170px;
+    flex-shrink: 0;
+
+    background-color: #8ABCD7;
+}
+.dustin__img{
+    width: 40%;
+}
+.formulary{
+    display: flex;
+    width: 583px;
+    padding-top: 30px;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 41px;
+    flex-shrink: 0;
+}
+.formulary__paragraph{
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+}
+.question{
+    color: #FFF;
+    font-family: "Lilita One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contact__me{
+    padding-top: 15px;
+}
+.formulary__general{
+    color: #FFF;
+    font-family: "Lilita One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+.name{
+    height: 40px;
+    width: 130%;
+    border-radius: 10px;
+}
+.correo{
+    height: 40px;
+    width: 130%;
+    border-radius: 10px;
+}
+.tell__me{
+    height: 40px;
+    width: 130%;
+    border-radius: 10px;
+}
+.buttom__final{
+    display: flex;
+    width: 170px;
+    height: 71px;
+    padding: 30px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #293034;
+    border-radius: 12px;
+    background: #FFF;
+}
+.footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 169px;
+    gap: 40px;
+    flex-shrink: 0;
+    flex-wrap: wrap; 
+}
+
+.social {
+    display: flex;
+    gap: 20px; 
+}
+
+.social__icons {
+    width: 60px;
+    height: auto; 
+}
+
+/* Móvil */
+/* Responsive Design Mobile */
+@media (max-width: 768px) {
+    .body{
+        font-size: 10%;
+    }
+    /* Header */
+    .header {
+        position: absolute; 
+        z-index: 1000; 
+    }
+
+    .header--container {
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .buttom--primary, .buttom--secundary {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+
+    /* Card One */
+    .card__one {
+        flex-direction: column;
+        padding-top: 180px;
+    }
+
+    .card__one--title {
+        text-align: center;
+    }
+
+    .title--one{
+        font-size: 48px;
+        padding-right: 90px;
+    }
+
+    .subtitle--one{
+        font-size: 15px;
+        padding-right: 100px;
+    }
+
+    .img__one {
+    width: 500px;
+}
+
+    /* Card Two */
+    .card__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    }
+
+    .paragraph--two{
+        font-size: 12px;
+    }
+
+    .information__content {
+        width: 100%;
+        text-align: left;
+    }
+
+    .card__two--img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .second__card--two{
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px; 
+}
+    .subtitle__again--two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+}
+    .img__two {
+        width: 100%;
+        height: auto;
+    }
+    .subtitle__second{
+        padding-left: 20px;
+    }
+    .education__container{
+        padding-left: 150px;
+    }
+    .education__card{
+        padding-right: 65px;
+        flex-direction: column;
+    }
+    .subtitle__second{
+        font-size: 15px;
+        align-items: center;   
+}
+    .software{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        padding-left: 150px;
+}
+    .more--two{
+        font-size: 15px;
+        padding-left: 150px;
+}
+    .subtitle__2{
+        font-size: 15px;
+}
+    .title--two{
+        font-size: 25px;
+        display: flex;
+        padding-left: 150px;
+    }
+    .university__career{
+        font-size: 25px;
+        padding-right: 150px;
+    }
+    .university{
+        font-size: 15px;
+    }
+    .data{
+        display: flex;
+        padding-left: 160px;
+    }
+    .text--two{
+        font-size: 20px;
+    }
+    .data--icon{
+    }
+    /* Third Card */
+    .third__card {
+        flex-direction: column;
+        padding: 20px;
+        gap: 50px;
+    }
+    .third__title{
+        font-size: 25px;
+    }
+    .content {
+        width: 100%;
+        padding-top: 150px;
+    }
+    .paragraph--card{
+        padding-right: 200px;
+        padding-left: 15px;
+    }
+    .content__paragraph--third{
+        font-size: 14px;
+    }
+    .img__third {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Fifth Card */
+    .fifth__card {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .title__one--five{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .box__one{
+    }
+    .number{
+        font-size: 25px;
+        padding: 12px;
+    }
+    .name--process{
+        font-size: 25px;
+        padding-bottom: 22px;
+
+    }
+    .boceto__img, .lineart__img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+    .title__two--five{
+        font-size: 30px;
+    }
+    /* Sixth Card */
+    .sixth__card {
+        padding: 20px;
+    }
+    .comissions__container {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .card__comissions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .icon__card,
+    .chibi__card,
+    .medio__card,
+    .completo__card {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+        height: auto;
+        width: 15%;
+    }
+    
+    .icon__title,
+    .chibi__title,
+    .medio__title,
+    .completo__title {
+        font-size: 1.5rem;
+        color: #8ABCD7;
+        margin-bottom: 10px;
+    }
+    
+    .icon__information,
+    .chibi__information,
+    .medio__information,
+    .completo__information {
+        font-size: 1.2rem;
+        color: #1A232F;
+        margin: 10px 0;
+    }
+    
+    .price {
+        font-size: 2rem;
+        color: #293034;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    
+
+    .buttom--primary--six-card,
+    .buttom--secundary--six-card {
+        width: 100%;
+    }
+
+    /* Seventh Card */
+    .seventh__card {
+        flex-direction: column;
+        padding: auto;
+        padding-bottom: 85%;
+    }
+
+    .dustin__img {
+        width: 100%;
+        padding: left 2px; ;
+    }
+
+    .formulary {
+    max-width:fit-content;
+    padding: 20px;
+    }
+
+    .name,
+    .correo,
+    .tell__me {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto; 
+        padding: 20px 10px; 
+    }
+
+    .social {
+        justify-content: center; 
+    }
+
+    .social__icons {
+        width: 40px; 
+    }
+}
+    
+
+
+
+
